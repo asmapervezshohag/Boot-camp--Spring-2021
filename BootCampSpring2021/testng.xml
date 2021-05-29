@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+<parameter name="browser" value="Chrome"> </parameter>
+
+<parameter name="website" value="https://www.homedepot.com/"> </parameter>
+  <test  name=" Regression Test">
+   <classes>
+      <class name="Com.AutomationLearner.BootCampSpring2021.HomeDepotNewUserAccountCreation"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
